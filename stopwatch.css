@@ -1,0 +1,46 @@
+body{
+    background-image: url("watch.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: cursive;
+}
+.wrapper{
+    color: whitesmoke;
+    text-align: center;
+    background-color:rgb(13, 13, 54);
+    padding: 60px;
+    border-radius: 50px;
+    letter-spacing: 4px;
+}
+#seconds,#tens{
+    font-size: 40px;
+}
+button{
+    border-radius: 50%;
+    background-color: skyblue;
+    color: blue;
+    border: solid 1px whitesmoke;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 45px;
+    font-family: cursive;
+
+}
+button:hover{
+    background-color: aqua;
+
+}
+h3,p{
+    color: lightseagreen;
+    text-shadow: 4px 5px 6px blue;
+    font-size: 60px;
+    text-transform: uppercase;
+
+
+
+}
